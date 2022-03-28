@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+ul {
+  list-style-type: none;
+}
+
+ul li:hover {
+  cursor: pointer;
+}
+
+.movie-details {
+  border: 1px solid grey;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+
+li.movie-title {
+  font-weight: bold;
+  font-size: 16px;
+}
